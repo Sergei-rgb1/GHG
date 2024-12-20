@@ -19,6 +19,7 @@ body {
   width: 17vh;
   height: 10vh;
   background-image: url("./логотип/Untitled.png");
+  opacity: 0.5;
 }
 
 
@@ -196,13 +197,13 @@ body {
 }
 
 header {
-  background: linear-gradient(to right, #bba6a6, #bba6a6, #bba6a6);
-  color: white;
+  background: linear-gradient(to right, #7e7e7e, #ffeded, #7a7a7a);
   padding: 0px 0;
   text-align: center;
   justify-items: center;
   align-items: center;
 }
+
 
 
 nav ul {
