@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Видео танцев</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <body style="background: linear-gradient(to right, #5f8ba0, #484288, #2fb3a8);">
+
+        <header>
+            <div id="Kostum">шоу театр костюмы</div>
+            <h1>Грёзы!</h1>
+
+            <div class="Logotip"></div>
+
+            <nav>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./photo.html" id="main">Фото танцев</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./video.html">Видео танцев</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <!-- /* Модальное окно с видео для октября -->
+
+        <main class="container mt-5">
+            <!-- Галерея с блоками видео по порядку -->
+            <div class="video-gallery">
+                <!-- Блок видео 1 -->
+                <div class="video-block" data-bs-toggle="modal" data-bs-target="#videoModal1">
+                    <img src="./19 октября 2024 года фестиваль моды/Zncx4PqaSOU.jpg" alt="Модная матрешка"
+                        class="img-thumbnail main-thumbnail">
+                    <div class="caption-video">
+                        <p>1. «Модная матрешка - 2024» 19 Октября</p>
+                    </div>
+                </div>
+
+                <!-- Блок видео 2 -->
+                <div class="video-block" data-bs-toggle="modal" data-bs-target="#videoModal2">
+                    <img src="./Апрель-2024 1-5/1.jpg" alt="Спартакиада - Апрель" class="img-thumbnail main-thumbnail">
+                    <div class="caption-video">
+                        <p>2. «Спартакиада - 2024» Апрель 1-5</p>
+                    </div>
+                </div>
+
+                <!-- Блок видео 3 -->
+                <div class="video-block" data-bs-toggle="modal" data-bs-target="#videoModal3">
+                    <img src="./февраль 2024 20/8.jpg" alt="Спартакиада - Февраль" class="img-thumbnail main-thumbnail">
+                    <div class="caption-video">
+                        <p>3. «Спартакиада - 2024» Февраль 20</p>
+                    </div>
+                </div>
+
+                <!-- Блок видео 4 -->
+                <div class="video-block" data-bs-toggle="modal" data-bs-target="#videoModal4">
+                    <img src="./Казань-2023 декабрь/12.jpg" alt="Луч - Декабрь" class="img-thumbnail main-thumbnail">
+                    <div class="caption-video">
+                        <p>4. «Луч - 2023» 1 Декабря</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Модальные окна для каждого блока видео -->
+            <div class="modal fade" id="videoModal1" tabindex="-1" aria-labelledby="videoModalLabel1"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="videoModalLabel1">Видео: «Модная матрешка - 2024»</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="https://vk.com/video_ext.php?oid=-210100674&id=456239089&hash=8d1f16e3a80b16d2"
+                                width="640" height="360" frameborder="0" allowfullscreen="1"
+                                allow="autoplay; encrypted-media; fullscreen; picture-in-picture" controls
+                                class="video-thumbnail"></iframe>
+                            <iframe src="https://vk.com/video_ext.php?oid=-228241629&id=456239018&hash=a3932d1657ed7ef1"
+                                width="640" height="360" frameborder="0" allowfullscreen="1"
+                                allow="autoplay; encrypted-media; fullscreen; picture-in-picture" controls
+                                class="video-thumbnail"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="videoModal2" tabindex="-1" aria-labelledby="videoModalLabel2"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="videoModalLabel2">Видео: «Спартакиада - 2024» Апрель 1-5</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="https://vk.com/video_ext.php?oid=-228241629&id=456239028&hash=8eab9c533591f4be"
+                                width="640" height="360" frameborder="0" allowfullscreen="1"
+                                allow="autoplay; encrypted-media; fullscreen; picture-in-picture" controls
+                                class="video-thumbnail"></iframe>
+                            <iframe src="https://vk.com/video_ext.php?oid=-28915774&id=456259549&hash=4dd35b6000807aa1"
+                                width="640" height="360" frameborder="0" allowfullscreen="1"
+                                allow="autoplay; encrypted-media; fullscreen; picture-in-picture" controls
+                                class="video-thumbnail"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="videoModal3" tabindex="-1" aria-labelledby="videoModalLabel3"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="videoModalLabel3">Видео: «Спартакиада - 2024» Февраль 20</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="https://vk.com/video_ext.php?oid=-228241629&id=456239027&hash=cc5d8ede75f86220"
+                                width="640" height="360" frameborder="0" allowfullscreen="1"
+                                allow="autoplay; encrypted-media; fullscreen; picture-in-picture" controls
+                                class="video-thumbnail"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="videoModal4" tabindex="-1" aria-labelledby="videoModalLabel4"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="videoModalLabel4">Видео: «Луч - 2023» 1 Декабря</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe src="https://vk.com/video_ext.php?oid=-228241629&id=456239026&hash=a940062a256419dd"
+                                width="640" height="360" frameborder="0" allowfullscreen="1"
+                                allow="autoplay; encrypted-media; fullscreen; picture-in-picture" controls
+                                class="video-thumbnail"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+
+        <!-- Модальное окно для воспроизведения видео -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="videoModalLabel">Просмотр видео</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="ratio ratio-16x9">
+                            <iframe id="videoFrame" src="./" title="Видео танцев" allow="autoplay; encrypted-media"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+            integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
