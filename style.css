@@ -14,12 +14,15 @@ body {
 
 .Logotip {
   border: 1px solid black;
-  display: flex;
-  align-items: flex-start;
   width: 17vh;
   height: 10vh;
   background-image: url("./логотип/Untitled.png");
   opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.Logotip:hover {
+  opacity: 1;
 }
 
 
